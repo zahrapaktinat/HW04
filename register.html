@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="img/image54.png" alt="Register Image">
+        </div>
+        <div class="form-container">
+            <div class="card register-form">
+                <form action="/" method="POST">
+                    <label for="username">
+                        <div>Username</div>
+                        <input type="text" id="username" name="username" required>
+                    </label>
+
+                    <label for="email">
+                        <div>Email</div>
+                        <input type="email" id="email" name="email" required>
+                    </label>
+
+                    <label for="password">
+                        <div>Password</div>
+                        <input type="password" id="password" name="password" required>
+                    </label>
+
+                    <label for="confirm-password">
+                        <div>Confirm Password</div>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </label>
+
+                    <input type="submit" value="Sign up" class="button">
+                </form>
+                <div class="mt-1">
+                    Already have an account? <a href="login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
