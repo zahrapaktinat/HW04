@@ -44,6 +44,20 @@ img {
   padding: 20px;
 }
 
+.form-item {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.is-error {
+  border-color: red !important;
+}
+
+.form-item-error {
+  color: red;
+  font-size: 90%;
+}
+
 .card {
   background-color: #fff;
   padding: 2rem;
